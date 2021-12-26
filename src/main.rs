@@ -130,7 +130,7 @@ fn get_all_people(map: &mut HashMap<String, String>) {
     }
 }
 
-/// Convenience function to create a collection of employees.
+/// Convenience function to create a vector of employees.
 fn setup_employees() -> Vec<String> {
     let emps = vec![
         String::from("Sally"),
@@ -142,7 +142,7 @@ fn setup_employees() -> Vec<String> {
     emps
 }
 
-/// Convenience function to create a collection of departments
+/// Convenience function to create a vector of department names.
 fn setup_departments() -> Vec<String> {
     let depts = vec![
         String::from("Sales"),
